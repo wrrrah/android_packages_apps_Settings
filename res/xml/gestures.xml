@@ -34,6 +34,12 @@
         <intent android:action="org.lineageos.settings.device.GESTURE_SETTINGS" />
     </lineageos.preference.RemotePreference>
 
+    <lineageos.preference.LineageSystemSettingSwitchPreference
+        android:key="swipe_to_screenshot"
+        android:title="@string/swipe_to_screenshot_title"
+        android:summary="@string/swipe_to_screenshot_summary"
+        android:defaultValue="false" />
+
     <Preference
         android:key="gesture_assist_input_summary"
         android:title="@string/assist_gesture_title"
